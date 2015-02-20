@@ -7,6 +7,7 @@ Feature handling package to assist in versioning an api. The package provides th
 There are two main methods.
 
 create - Middleware to look at the Accept-Version header and determine available features. This list of feature is place in CLS for use later.
+
 has - Checks if a version is available. This can be used to determine if custom code or legacy behavior needs to be applied.
 
 ##Examples
