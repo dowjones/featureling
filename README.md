@@ -1,4 +1,4 @@
-#featureling[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coverage-image]][coverage-url]
+#featureling[![Build Status](https://secure.travis-ci.org/areusjs/featureling.png)](http://travis-ci.org/areusjs/featureling) [![NPM version](https://badge.fury.io/js/featureling.svg)](http://badge.fury.io/js/featureling)
 
 Feature handling package to assist in versioning an api. The package provides the necessary hooks to make a feature list avaliable. It was created to provide the concept of a feature to use for versioning your code. It is utilizing CLS to make the feature list available for an application. 
 
