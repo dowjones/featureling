@@ -1,0 +1,34 @@
+{
+  "name": "featureling",
+  "version": "1.0.1",
+  "description": "Feature Handling",
+  "author": "Doug Reiter <ddrinf@gmail.com>",
+  "contributors": "Yuriy Nemtsov <nemtsov@gmail.com>",
+  "main": "featureling.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.dowjones.net/areusjs/featureling.git"
+  },
+  "scripts": {
+    "test": "sh -c 'npm run test-cover && istanbul check-coverage --statements 80 --functions 80 --branches 80 --lines 80'",
+    "test-cover": "istanbul cover _mocha -- -r should --recursive",
+    "test-watch": "mocha -G -r should --recursive -w -R min -t 200"
+  },
+  "dependencies": {
+    "continuation-local-storage": "^3.1.2",
+    "semver": "^4.3.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.2",
+    "mocha": "^2.0.1",
+    "proxyquire": "^1.0.1",
+    "require-directory": "^2.0.0",
+    "should": "^4.1.0",
+    "sinon": "^1.10.3"
+  },
+  "features":{
+     "1.x":[ "my:feature:a",
+               "my:feature:b"],
+     "0.x":[ "my:feature:c"]
+  }
+}
