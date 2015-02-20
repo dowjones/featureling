@@ -7,7 +7,7 @@
   "main": "featureling.js",
   "repository": {
     "type": "git",
-    "url": "https://github.dowjones.net/areusjs/featureling.git"
+    "url": "https://github.com/areusjs/featureling.git"
   },
   "scripts": {
     "test": "sh -c 'npm run test-cover && istanbul check-coverage --statements 80 --functions 80 --branches 80 --lines 80'",
